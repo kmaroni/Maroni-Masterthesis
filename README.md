@@ -1,4 +1,4 @@
-# Neural-Networks-Masterthesis
+# Maroni Masterthesis
 This repo contains code for the implementations and their plots used in my master thesis titled Neural Networks: Bridging Convergence Theory, Convex Optimization, and Practical Implementation.  
 
 # Polynomial approximation:
