@@ -14,9 +14,10 @@ rand.seed(2025) #for reproducibility
 N = 10 #number of samples of samples
 
 x_data=np.array([[0.4,0.2],[0.6,0.4],[0.7,0.2],[0.9,0.6],[0.8,0.9],
-                 [0.1,0.5],[0.2,0.1],[0.2,0.8],[0.3,0.4],[0.5,0.7],])
+                 [0.1,0.5],[0.2,0.1],[0.2,0.8],[0.3,0.4],[0.5,0.7]])
 y_data = np.zeros((N,2))
-y_data[:5] = [1,0]; y_data[5:] = [0,1] #first half is blue other half is orange.
+#first half is blue other half is orange
+y_data[:5] = [1,0]; y_data[5:] = [0,1]
 
 #Plot data
 plt.scatter(*zip(*x_data[:5]), marker ='x', color=blue)
